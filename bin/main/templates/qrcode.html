@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.3c.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<p>
+		<img width="256" height="256" 
+        	th:src="@{http://localhost:8080/qrcode} + '?text=' + ${text}" 
+        	alt="Please visit Spring Boot" title="Please visit Spring Boot">
+	    </p>
+
+</body>
+</html>

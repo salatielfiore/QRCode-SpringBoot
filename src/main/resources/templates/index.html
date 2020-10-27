@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.3c.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<form method="post" th:action="@{/qr}">
+			<input type="text" name="text" />
+			<input type="submit" value="gerar qrcode"/>
+			
+		</form>
+	</div>
+
+</body>
+</html>
